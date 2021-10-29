@@ -45,7 +45,7 @@ body {
 .navbar nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   border-bottom: 1px solid grey;
   padding: 15px 0;
 
@@ -56,3 +56,119 @@ body {
 }
 
 
+
+
+
+
+.navbar .navbar-grow {
+  flex-grow: 1;
+}
+
+.navbar.navbar-black {
+  background-color: black;
+}
+
+.navbar.navbar-black nav {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.navbar.navbar-black nav ul li a {
+  color: white;
+  padding: 10px 5px;
+}
+
+.navbar.navbar-black nav ul li a.active {
+  color: gray;
+  background-color: transparent;
+}
+
+.navbar input {
+  padding: 10px 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.navbar.navbar-black input {
+  background-color: black;
+  border-color: rgb(126, 126, 126);
+}
+
+.navbar a.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid rgb(30, 79, 238);
+  border-radius: 5px;
+  color: rgb(30, 79, 238);
+}
+
+.navbar.navbar-black a.btn {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+}
+
+.navbar.navbar-black a.btn-active {
+  background-color: rgb(255, 239, 10);
+  border-color: darkkhaki;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.navbar.navbar-black.navbar-grow.together {
+  display: inline-block;
+  justify-items: center;
+  align-items: center;
+}
+.navbar.navbar-black .together-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.navbar.navbar-black nav ul.together-3 li .input-2.btn.btn-active{
+  padding: 50px;
+  margin: 10px;
+}
+.navbar.navbar-black input[value] {
+  color: white;
+}
+.navbar.navbar-size nav {
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.navbar.navbar-black .narbar-grow.together-1.together-4 {
+  display: flex;
+ 
+}
+.navbar.navbar-black.together-5 {
+  background-color: white;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+.navbar.together-5 nav.together-5 a[href="#"] {
+  color: black;
+
+}
+.navbar.together-5 nav.together-5 a.active {
+  color: rgb(146, 139, 139);
+}
+.navbar.navbar-black.together-5 ul.together-3 a.btn {
+  color: rgb(29, 25, 255);
+  border-color: rgb(29, 25, 255);
+}
+.navbar.navbar-black.together-5 ul.together-3 a.btn-active {
+  color: rgb(255, 255, 255);
+  border-color: rgb(29, 25, 255);
+  background-color: rgb(52, 49, 245);
+}
